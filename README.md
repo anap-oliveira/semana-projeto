@@ -22,11 +22,11 @@ A escrita e a declamação representam ferramentas de expressão importantes par
 
 *Utilizaremos os seguintes métodos na construção da API:*
 
-#### GET: GetAll - Listar todas as inscritas no BD;
-#### GET: GetID - Listar as inscritas por id;
-#### POST: PostNew: Adicionar/Cadastrar nova participante;
-#### PATCH: UpdateSarau: Atualização cadastral;
-#### PUT: Replace: Substituir todas as informações pelo id;
+#### GET: Listar todas as inscritas no BD;
+#### GET ID: Listar as inscritas por id;
+#### POST: Adicionar/Cadastrar nova participante;
+#### PATCH: Atualização cadastral;
+#### PUT: Substituir todas as informações pelo id;
 #### DELETE: Remover uma ou mais participante;
 
 
