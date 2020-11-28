@@ -1,0 +1,28 @@
+{
+  "name": "semana-projeto",
+  "version": "1.0.0",
+  "description": "*Banco de Dados para mulheres pretas que soltam o grito da sua resistência na poesia.*",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "mongodb": "^3.6.3"
+  },
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anap-oliveira/semana-projeto.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anap-oliveira/semana-projeto/issues"
+  },
+  "homepage": "https://github.com/anap-oliveira/semana-projeto#readme"
+}
