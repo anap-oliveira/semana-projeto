@@ -1,15 +1,19 @@
-## **Projeto Sarau & Slam: Preta e Poesia**
+
+<h1 align="center">
+  <img src="public/images/pretas-em-poesia.png" alt="mulher negra com cabelo black power escrito pretas em poesia" width="300">
+<p align="center">Projeto Sarau & Slam: Preta e Poesia<p>
+</h1>
+
 
 *Banco de Dados para mulheres pretas que soltam o grito da sua resistência na poesia.*
-
-
-![foto](https://colecaomossoroense.org.br/site/wp-content/uploads/2019/04/slampoesia_logo.jpg)
 
 ## **APRESENTAÇÃO:**
 
 O Projeto tem o interesse em reunir mulheres negras enquanto um mecanismo de resistência em sua fala e seus escritos, buscando referenciar e resgastar a produção autoral de poetisas negras (brasileiras) como Conceição Evaristo, Carolina Maria de Jesus, Cristiane Sobral, Cidinha da Silva, Elisa Lucinda, dentre outras e, principalmente, incentivar e valorizar a produção autoral das mulheres negras.
 
 Sendo assim, contribuir para um contexto do qual, cada vez mais, mulheres negras estão buscando e lutando por mais representatividade nos espaços institucionalizados, políticos, sociais e acadêmicos.
+
+![foto](https://colecaomossoroense.org.br/site/wp-content/uploads/2019/04/slampoesia_logo.jpg)
 
 
 ## **Mulheres pretas e suas resistências poéticas:**
