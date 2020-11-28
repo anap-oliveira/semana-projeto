@@ -1,11 +1,9 @@
-
-<h1 align="center">
-  <img src="public/images/pretas-em-poesia.png" alt="mulher negra com cabelo black power escrito pretas em poesia" width="300">
-<p align="center">Projeto Sarau & Slam: Preta e Poesia<p>
-</h1>
-
+## **Projeto Sarau & Slam: Preta e Poesia**
 
 *Banco de Dados para mulheres pretas que soltam o grito da sua resistência na poesia.*
+
+
+
 
 ## **APRESENTAÇÃO:**
 
