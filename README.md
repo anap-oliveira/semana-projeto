@@ -3,7 +3,7 @@
 *Banco de Dados para mulheres pretas que soltam o grito da sua resistência na poesia.*
 
 
-
+<img src="public/images/pretas-em-poesia.png">
 
 ## **APRESENTAÇÃO:**
 
