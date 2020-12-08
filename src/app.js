@@ -1,22 +1,36 @@
-const express = require("express")
-const bodyParser = require("body-parser")
+require("dotenv-safe").config();
+const express = require("express");
+const bodyParser = require("body-parser");
+const mongoose = require("mongoose");
+const app = express();
 
-const app = express()
+mongoose.connect(`${process.env.MONGODB_URL}`, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-const participantes = require("./routes/participantesRoute")
+const db = mongoose.connection;
+db.on("error", console.log.bind(console, "connection error:"));
+db.once("open", function () {
+  console.log("Successful connection!");
+});
 
-app.use(bodyParser.json())
+const index = require("./routes/index");
+const participantes = require("./routes/participantesRoute");
+
+app.use(bodyParser.json());
 
 app.use(function (req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*") 
-    res.header(
-        "Access-Control-Allow-Headers",
-        "Origin, X-Requested-With, Content-Type, Accept"
-    )
-    next()
-})
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
-app.use("/participantes", participantes)
+app.use("/", index);
+app.use("/participantes", participantes);
 
-module.exports = app
 
+module.exports = app;

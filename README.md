@@ -28,7 +28,6 @@ A escrita e a declamação representam ferramentas de expressão importantes par
 #### GET: Listar todas as inscritas no BD;
 #### GET ID: Listar as inscritas por id;
 #### POST: Adicionar/Cadastrar nova participante;
-#### PATCH: Atualização cadastral;
 #### PUT: Substituir todas as informações pelo id;
 #### DELETE: Remover uma ou mais participante;
 
