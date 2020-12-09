@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const participantesSchema = new mongoose.Schema({
-    id: { type: String },
+    id: { type: Number },
     name: { type: String },
-    age: { type: String },
+    age: { type: Number },
     city: { type: String },
     email: { type: String },
     phone: { type: Number },

@@ -1,6 +1,4 @@
 const participantes = require("../models/participantes");
-const SECRET = process.env.SECRET;
-const jwt = require("jsonwebtoken");
 
 
 const getAll = (req, res) => {
@@ -26,9 +24,9 @@ const getById = (req, res) => {
 
 
 const postParticipantes = (req, res) => {
-    let participantes = new participantes(req.body)
+    let participante = new participantes(req.body)
 
-    participantes.save(function(err){
+    participante.save(function(err){
         if (err) {
             res.status(500).send({ message: err.message })
         } else {
