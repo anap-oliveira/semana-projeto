@@ -6,16 +6,17 @@
 ![Badge](https://img.shields.io/github/issues/anap-oliveira/semana-projeto)
 ![Badge](https://img.shields.io/badge/deploy-heroku.com-orange)
 ![Badge](https://img.shields.io/badge/status-success-brightgreen)
-![Badge](/apm/l/:packageName)
+
 
 
 <img src="public/images/pretas-em-poesia.png" width="300">
 
 
 ## Sumário: 
+[APRESENTAÇÃO](#APRESENTAÇÃO)
+[Rotas](#Rotas-da-Api)
 
-
-## **APRESENTAÇÃO:**
+## *APRESENTAÇÃO:*
 
 O Projeto tem o interesse em reunir mulheres negras enquanto um mecanismo de resistência em sua fala e seus escritos, buscando referenciar e resgastar a produção autoral de poetisas negras (brasileiras) como Conceição Evaristo, Carolina Maria de Jesus, Cristiane Sobral, Cidinha da Silva, Elisa Lucinda, dentre outras e, principalmente, incentivar e valorizar a produção autoral das mulheres negras.
 
@@ -35,7 +36,7 @@ Sendo assim, contribuir para um contexto do qual, cada vez mais, mulheres negras
 
 | Verbo      | Descrição                                  | Rotas 
 | ---------- | ----------                                 | ----------                                                               |
-| GET        | Listar todas as inscritas no BD.           |                                                                          | 
+| GET        | Listar todas as inscritas no BD.           |                                                                           | 
 | GET ByID   | Listar as inscritas por id.                |                                                                          | 
 | POST       | Adicionar/Cadastrar nova participante.     |                                                                          |
 | PUT        | Substituir todas as informações pelo id.   |                                                                          | 
