@@ -4,12 +4,9 @@
 
 
 
-![Badge](https://img.shields.io/github/issues/anap-oliveira/semana-projeto)
-
-![Badge](https://img.shields.io/badge/deploy-heroku.com-orange)
-
 ![Badge](https://img.shields.io/badge/status-success-brightgreen)
-
+![Badge](https://img.shields.io/github/issues/anap-oliveira/semana-projeto)
+![Badge](https://img.shields.io/badge/deploy-heroku.com-orange)
 ![Badge](https://img.shields.io/github/license/anap-oliveira/semana-projeto)
 
 
